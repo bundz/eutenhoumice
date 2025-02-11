@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "sound-play": "^1.1.0"
+  },
+  "name": "eutenhoumice",
+  "version": "1.0.0",
+  "description": "Eu tenho um ice",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vitor Alano",
+  "license": "ISC",
+  "bin": {
+    "eutenhoumice": "./index.js"
+  }
+}
