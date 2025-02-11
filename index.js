@@ -2,5 +2,7 @@
 
 const sound = require("sound-play");
 const path = require("path");
+const fs = require("fs");
 
-sound.play(path.join(__dirname, "./eutenhoumice.mp3"));
+const mainPath = path.dirname(fs.realpathSync(__filename));
+sound.play(path.join(mainPath, "./eutenhoumice.mp3"));
